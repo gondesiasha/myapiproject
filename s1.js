@@ -1,7 +1,7 @@
 var hapi=require('@hapi/hapi');
 require("dotenv").config();
 var mysql=require('mysql');
-const Joi = require('@hapi/joi');
+
 
 var server=new hapi.server({
 	host:'localhost',
